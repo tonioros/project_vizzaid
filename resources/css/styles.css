@@ -1,0 +1,225 @@
+/*
+CREADO POR ANTONIO XOCOY ROSALES
+PARA PROYECTO DE PRUEBA
+KINAL FEBRERO 2017
+PE6AV
+*/
+
+.div-body{
+  background: rgb(235, 235, 235);
+  margin: 2px 10px;
+}
+.texto-carrousel{
+  text-align: center;
+  word-wrap: normal;
+}
+.carrusel-top{
+  margin: 0px 5% 0px 7%;
+}
+.carrusel-element {
+  width: 17%;
+  float: left;
+  margin: 2px;
+}
+.imagenes-carrousel{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 80%;
+  height: 80%;
+  border-radius: 2px;
+}
+.carrusel-element * {
+  margin-top: 2px;
+}
+.carrusel-element:hover {
+  box-shadow: 1.5px 1px 1px 1.5px rgb(43, 170, 170);
+  margin: 0px;
+  transition: 0.5s;
+}
+.div-foot-create{
+  background: url('../img/515741052.jpg');
+  opacity: 0.90;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 3px;
+}
+.text-create{
+  margin: 0px;
+  padding: 10% 9% 0 9%;
+  font-size: 3em;
+  color: rgb(25, 25, 25);
+}
+.text-create-sub{
+  margin: 0px;
+  padding: 0 20% 10% 20%;
+  font-size: 1.5em;
+  color: rgb(26, 26, 26);
+}
+.imagenes{
+  margin: 2px 3px;
+  border-radius: 10px;
+}
+.imagenes:hover{
+  box-shadow: 2px 2px rgb(61, 182, 182);
+  border-radius: 3px;
+  transition: .3s;
+}
+body{
+  background: url('../img/background.jpg');
+  margin: 0px;
+  padding: 0px;
+  margin-top: -40px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.header-top{
+  background: url('../img/logoVizzaid.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 28em;
+  border-radius: 3px;
+  background-size: 100%;
+  color: rgb(0, 0, 0);
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.subtitulo-header{
+    font-size: 2.5em;
+    color: #257073;
+    font-weight: bolder;
+    text-shadow: 1px 1px rgb(161, 42, 95);
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 13.1%;
+    padding-right: 13.1%;
+    margin: 0px;
+    padding-bottom: 3%;
+    padding-top: 27.5%;
+  }
+.navegador{
+    padding-top: 2px;
+    padding-bottom: 2px;
+    margin-left: 19%;
+    margin-right: 19%;
+    padding-right: 0px;
+    width: 75%;
+  }
+.navegador-a{
+  background: rgb(37, 37, 37);
+  color: rgb(195, 195, 195);
+  margin: 0px;
+  padding: 0px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-size: 1.7em;
+  border-right: solid 2px #2e2e2e;
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Raleway', sans-serif;
+}
+.navegador-a:hover{
+  background: rgb(227, 227, 227);
+  color: rgb(33, 33, 33);
+  font-size: 2em;
+  transition: 0.4s;
+}
+.icono-nav{
+  padding: 0px;
+  margin: 0px;
+  width: 30px;
+  height: 30px;
+}
+.contenedor{
+text-align: left;
+width: 80%;
+margin: auto;
+}
+.mostrar-contenido{
+  background: rgb(224, 224, 224);
+  color: #383838;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border-radius: 2px;
+  opacity: 0.72;
+  font-size: 1.3em;
+}
+.clearfix{
+  clear: both;
+  clear: inherit;
+}
+.col-iz{
+width: 30%;
+float:left;
+}
+.col-der{
+margin-left:70%;
+}
+.contenedor-col{
+  clear: both;
+  margin: auto;
+  padding: inherit;
+}
+.columna-1{
+  width: 80%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+  }
+.columna-2{
+  width: 50%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.columna-3{
+  width: 33.33%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.columna-4{
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.columna-5{
+  width: 20%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.columna-6{
+  width: 16.66%;
+  margin: 0px;
+  padding: 0px;
+  float: left;
+}
+.btn{
+  background: rgb(217, 217, 217);
+  border: none;
+  border-radius: 2px;
+  color: rgb(22, 22, 22);
+  padding: 5px 8px;
+  font-size: 1.2em;
+}
+.btn:hover{
+  background: rgb(236, 236, 236);
+  border: none;
+  border-radius: 2px;
+  color: rgb(84, 84, 84);
+  padding: 5px 8px;
+  font-size: 1.2em;
+}
+footer{
+  background: rgb(29, 29, 29);
+  color: rgb(107, 107, 107);
+  border-top: rgb(91, 91, 91);
+  margin: 0px;
+  padding: 8px 37%;
+}
