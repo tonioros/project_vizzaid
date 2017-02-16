@@ -8,13 +8,13 @@
   </head>
   <body>
     <header class="header-top" >
-      <h4 class="subtitulo-header">Nunca habia sido tan bueno comer y tan saludable</h4>
     </header>
     <nav class="navegador">
       <a class="navegador-a" href="index.php"><img src="resources/img/inicio.png" alt="imagenInicio" class="icono-nav"/>Inicio</a>
       <a class="navegador-a" href="index.php"><img src="resources/img/menu.png" alt="imagenInicio" class="icono-nav"/>Nuestro Menu</a>
       <a class="navegador-a" href="index.php"><img src="resources/img/historia.png" alt="imagenInicio" class="icono-nav"/>Nuestra Historia</a>
       <a class="navegador-a" href="index.php"><img src="resources/img/comprar.png" alt="imagenInicio" class="icono-nav"/>Comprar</a>
+      <a class="navegador-a" href="index.php"><img src="resources/img/comprar.png" alt="imagenInicio" class="icono-nav"/>Ingresa a tu cuenta</a>
       <a class="navegador-a" href="index.php">Contactanos</a>
     </nav>
     <!--adfasdfasdfasdfasdfasdfasdfasdf -->
